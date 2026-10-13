@@ -120,8 +120,7 @@ See [`docs/data_governance.md`](docs/data_governance.md) for the full framework 
 
 ## Funding
 
-This work was supported by a seed fund from URI — United Religions Initiative (urialc.org). The funders had no role in the design of the study, the 
-construction of the Cultural Constitution, the training of the models, or the interpretation of results.
+This work was supported by a seed fund from URI — United Religions Initiative (urialc.org). The funders had no role in the design of the study, the construction of the Cultural Constitution, the training of the models, or the interpretation of results.
 
 ## Citation
 
