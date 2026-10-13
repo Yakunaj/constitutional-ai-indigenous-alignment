@@ -91,10 +91,10 @@ This work would not have been possible without the generosity and disposition of
 | Don Felipe | Maya | Mexico | Producer, knowledgeable in community norms and land work |
 | Francisco Morales | Aymara | Argentina | Indigenous writer, organizer of the Indigenous Writers' Circle in Buenos Aires, cultural activist |
 | Julio César Paz Nap | Tolupán | Honduras | Territorial defender, human rights and environmental activist |
-| Donatila Girón (Doña Tila) | Lenca | Honduras | Community leader, legal promoter, companion of women victims of violence, defender of land and water |
+| Donatila Girón | Lenca | Honduras | Community leader, legal promoter, companion of women victims of violence, defender of land and water |
 | Marvin Ramón Castellón | Chorotega | Honduras | Indigenous Chorotega representative of the southern Choluteca zone |
 
-All are members of URI — United Religions Initiative (urialc.org).
+Last four are members of URI — United Religions Initiative (urialc.org).
 
 ## Language policy
 
