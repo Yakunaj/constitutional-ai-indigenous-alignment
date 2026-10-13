@@ -40,7 +40,7 @@ It contains the complete system developed to align a language model with the eth
 
 ## The Cultural Constitution
 
-The Cultural Constitution is a structured JSON document (`codigo_moral_v2_1.json`) that operationalizes ethical and community principles into a format processable by AI systems. It was built through semi-structured interviews with five indigenous leaders, writers, and defenders — members of URI (United Religions Initiative) — between April and May 2026. They participated not as anonymous informants but as **co-creators**, contributing from their recognized community authority.
+The Cultural Constitution is a structured JSON document (`codigo_moral_v2.1.json`) that operationalizes ethical and community principles into a format processable by AI systems. It was built through semi-structured interviews with five indigenous leaders, writers, and defenders — members of URI (United Religions Initiative) — between April and May 2026. They participated not as anonymous informants but as **co-creators**, contributing from their recognized community authority.
 
 The process produced **12 operational principles**:
 
