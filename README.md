@@ -15,8 +15,7 @@ This repository combines two licensing regimes, consistent with the Indigenous G
   and Traditional Knowledge (TK) Labels.
 - **Datasets and audio recordings** — Not distributed in this repository.
   Access is restricted and requires authorization from the corresponding 
-  Community Assembly. See [`data/README.md`](data/README.md).
-
+  Community Assembly. See [`LICENSE.md`](LICENSE.md) and [`docs/data_governance.md`](docs/data_governance.md) for details.
 
 > Leer en español: [README.es.md](README.es.md)
 
