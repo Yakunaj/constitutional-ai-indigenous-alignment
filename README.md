@@ -33,8 +33,8 @@ It contains the complete system developed to align a language model with the eth
 | [`paper/`](paper/) | Links to the Spanish paper (under review) and the English preprint |
 | [`constitution/`](constitution/) | The Cultural Constitution: 12 operational principles with traceability to community testimonies |
 | [`training/`](training/) | Notebooks for SFT, DPO, and evaluation over Qwen2.5-Instruct with LoRA |
-| [`results/`](results/) | Comparative results across four experimental configurations (A/B/C/D) |
-| [`rag/`](rag/) | Description of the RAG architecture over the oral corpus *U'uy u t'aan* |
+| [`results/`](results/) | Comparative results across three experimental configurations (A/B/C) |
+| [`rag/`](rag/) | Description of the RAG architecture |
 | [`data/`](data/) | Description of the datasets, how to request access, and the knowledge-sharing agreement. **No raw data is distributed in this repository** |
 | [`docs/`](docs/) | Language policy, data governance (CARE+S), and licensing framework |
 
@@ -66,13 +66,12 @@ The training follows the Constitutional AI pipeline in two phases:
 - **SFT (Supervised Fine-Tuning)** — The base model generates an initial response; a revision prompt including the original response and the corresponding constitutional principle guides the model to produce a revised response. The revised response, together with aligned examples from the constitution, forms the supervised training dataset.
 - **DPO (Direct Preference Optimization)** — 24 pairs of aligned and misaligned responses optimize the model's preferences directly, without a separate reward model.
 - **Base model** — Qwen2.5-7B-Instruct and Qwen2.5-1.5B with LoRA adaptation (r=16, α=16, dropout=0.05).
-- **Deployment** — A conversational interface with retrieval-augmented generation (RAG) over an oral corpus in Maya and Spanish.
+- **Deployment** — A conversational interface with retrieval-augmented generation (RAG).
 
-Four experimental configurations were run to estimate robustness:
+Three experimental configurations were run to estimate robustness:
 - (A) 7B with packing
 - (B) 1.5B full
-- (C) Hybrid: SFT on 1.5B, DPO/evaluation on 7B
-- (D) 7B without packing
+- (C) 7B without packing
 
 ## Key findings
 
@@ -118,6 +117,11 @@ Key commitments:
 The project does not yet count on a formal indigenous council with binding veto power across all stages; establishing one — beginning with a consultative council of the current five co-creators and institutional participation from URI — is an explicit goal for future iterations.
 
 See [`docs/data_governance.md`](docs/data_governance.md) for the full framework and [`docs/protocol_reference.md`](docs/protocol_reference.md) for the source protocol.
+
+## Funding
+
+This work was supported by a seed fund from URI — United Religions Initiative (urialc.org). The funders had no role in the design of the study, the 
+construction of the Cultural Constitution, the training of the models, or the interpretation of results.
 
 ## Citation
 
