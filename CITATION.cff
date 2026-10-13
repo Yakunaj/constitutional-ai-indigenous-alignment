@@ -1,0 +1,77 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the preprint below. The Spanish version is under review at Texto Livre."
+title: "Aligning Language Models with Indigenous Community Knowledge: Constitutional AI for Data Policies and Epistemic Justice from the Global South"
+abstract: >-
+  This work presents a complete system for aligning language models with the
+  ethical and philosophical principles of indigenous communities in Latin
+  America. Based on interviews with five community leaders and defenders who
+  are members of URI (United Religions Initiative), we built an operational
+  cultural constitution with 12 principles covering territory, coexistence,
+  authority, well-being, technology, and language. On this basis, we
+  implemented the Constitutional AI (CAI) pipeline in two phases: supervised
+  fine-tuning (SFT) with a self-critique and constitution-guided revision
+  loop, and direct preference optimization (DPO) with 24 pairs of aligned and
+  misaligned responses. The base model used was Qwen2.5-7B-Instruct with LoRA
+  adaptation. Three experimental configurations were run to estimate the
+  robustness of results. The system was deployed in a conversational interface
+  with retrieval-augmented generation (RAG).
+authors:
+  - family-names: Fernández Sabido
+    given-names: Silvia
+    affiliation: "SECIHTI / CentroGeo, Mérida, Yucatán, México"
+  - family-names: Reyes Magaña
+    given-names: Jorge
+    affiliation: "Facultad de Matemáticas, Universidad Autónoma de Yucatán, México"
+  - family-names: Chay Tun
+    given-names: Jesús Adrián
+    affiliation: "SECIHTI / CentroGeo & Facultad de Matemáticas, UADY, México"
+  - family-names: Buenfil
+    given-names: Jean Carlos
+    affiliation: "Comunidad Aymara / URI, Buenos Aires, Argentina"
+  - family-names: González Nahuat
+    given-names: Victor
+    affiliation: "SECIHTI / CentroGeo & Facultad de Matemáticas, UADY, México"
+  - family-names: Morales
+    given-names: Francisco
+    affiliation: "Comunidad Aymara / URI, Buenos Aires, Argentina"
+contact:
+  - family-names: Fernández Sabido
+    given-names: Silvia
+    affiliation: "SECIHTI / CentroGeo, Mérida, Yucatán, México"
+keywords:
+  - Constitutional AI
+  - AI alignment
+  - indigenous knowledge
+  - epistemic justice
+  - Global South
+  - language models
+  - LoRA
+  - DPO
+  - SFT
+  - RAG
+license: "GPL-3.0-or-later AND CC-BY-NC-SA-4.0"
+license-url: "https://github.com/[usuario]/constitutional-ai-indigenous-alignment/blob/main/LICENSE.md"
+repository-code: "https://github.com/[usuario]/constitutional-ai-indigenous-alignment"
+url: "https://github.com/[usuario]/constitutional-ai-indigenous-alignment"
+version: "1.0.0"
+date-released: "2026-10-13"
+# doi: "10.1590/1983-3652.yyyy.nnnnn"  # Uncomment when the Spanish version is published
+# preferred-citation:                     # Uncomment when the preprint is on arXiv
+#   type: article
+#   title: "Alineando modelos de lenguaje con saberes comunitarios indígenas: Constitutional AI para políticas de datos y justicia epistémica desde el Sur Global"
+#   authors:
+#     - family-names: Fernández Sabido
+#       given-names: Silvia
+#     - family-names: Reyes Magaña
+#       given-names: Jorge
+#     - family-names: Chay Tun
+#       given-names: Jesús Adrián
+#     - family-names: Buenfil
+#       given-names: Jean Carlos
+#     - family-names: González Nahuat
+#       given-names: Victor
+#     - family-names: Morales
+#       given-names: Francisco
+#   journal: "Texto Livre"
+#   year: 2026
+#   notes: "Under review"
