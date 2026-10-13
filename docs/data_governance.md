@@ -54,7 +54,7 @@ See [`../data/README.md`](../data/README.md) for the full procedure.
 
 | Type of material | Location | Who decides |
 |---|---|---|
-| Cultural Constitution | `constitution/codigo_moral_v2_1.json` | Co-creators + team (published under CC BY-NC-SA 4.0) |
+| Cultural Constitution | `constitution/codigo_moral_v2.1.json` | Co-creators + team (published under CC BY-NC-SA 4.0) |
 | Prompts and datasets | `prompts/`, `data/` | Community Assembly (restricted access) |
 | Training notebooks | `training/` | Team (published under GPLv3) |
 | Comparative results | `results/` | Team (published under CC BY-NC-SA 4.0) |
@@ -135,7 +135,7 @@ Ver [`../data/README.md`](../data/README.md) para el procedimiento completo.
 
 | Tipo de material | Ubicación | Quién decide |
 |---|---|---|
-| Constitución Cultural | `constitution/codigo_moral_v2_1.json` | Co-creadores + equipo (publicada bajo CC BY-NC-SA 4.0) |
+| Constitución Cultural | `constitution/codigo_moral_v2.1.json` | Co-creadores + equipo (publicada bajo CC BY-NC-SA 4.0) |
 | Prompts y datasets | `prompts/`, `data/` | Asamblea Comunitaria (acceso restringido) |
 | Notebooks de entrenamiento | `training/` | Equipo (publicados bajo GPLv3) |
 | Resultados comparativos | `results/` | Equipo (publicados bajo CC BY-NC-SA 4.0) |
