@@ -4,18 +4,7 @@
 
 [![License: Code GPLv3 · Content CC BY-NC-SA](https://img.shields.io/badge/License-GPLv3%20%7C%20CC%20BY--NC--SA-blue.svg)](#license)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-<!--  [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)  -->
-
-This repository combines two licensing regimes, consistent with the Indigenous Governance Protocol (SECIHTI CBF-2025-G-368):
-
-- **Code** (notebooks, scripts) — GNU General Public License v3.0 (GPLv3).
-  Copyleft: derivative works must remain open.
-- **Scientific artifacts** (Cultural Constitution, prompts, documentation) — 
-  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0) 
-  and Traditional Knowledge (TK) Labels.
-- **Datasets and audio recordings** — Not distributed in this repository.
-  Access is restricted and requires authorization from the corresponding 
-  Community Assembly. See [`LICENSE.md`](LICENSE.md) and [`docs/data_governance.md`](docs/data_governance.md) for details.
+<!-- [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX) -->
 
 > Leer en español: [README.es.md](README.es.md)
 
@@ -27,7 +16,13 @@ Large language models are predominantly trained on corpora that reflect Western,
 
 This repository accompanies the following work:
 
-Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con saberes comunitarios indígenas: Constitutional AI para políticas de datos y justicia epistémica desde el Sur Global* [Aligning language models with indigenous community knowledge: Constitutional AI for data policies and epistemic justice from the Global South]. **Texto Livre**, special issue *AI in Linguistics / Linguistics in AI*. Under review.
+> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con saberes comunitarios indígenas: Constitutional AI para políticas de datos y justicia epistémica desde el Sur Global* [Aligning language models with indigenous community knowledge: Constitutional AI for data policies and epistemic justice from the Global South]. **Texto Livre**, dossier *Linguística na IA e IA na Linguística* [AI in Linguistics / Linguistics in AI]. Under review.
+
+An English preprint is available on arXiv:
+
+<!-- Descomentar y actualizar cuando esté disponible:
+> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Aligning Language Models with Indigenous Community Knowledge: Constitutional AI for Data Policies and Epistemic Justice from the Global South*. arXiv:XXXX.XXXXX [cs.CL]. https://arxiv.org/abs/XXXX.XXXXX
+-->
 
 It contains the complete system developed to align a language model with the ethical and philosophical principles of five indigenous communities in Latin America, through a **Cultural Constitution** co-created with community leaders and a **Constitutional AI (CAI)** pipeline combining supervised fine-tuning (SFT) and direct preference optimization (DPO), deployed with retrieval-augmented generation (RAG).
 
@@ -109,46 +104,37 @@ See [`docs/language_policy.md`](docs/language_policy.md) for details.
 
 ## Data governance
 
-This project follows the **CARE Principles for Indigenous Data Governance**  (Collective Benefit, Authority to Control, Responsibility, Ethics) — extended 
-in this work to **CARE+S**, adding *Digital Sovereignty and Active Participation* —  alongside the FAIR principles. The governance framework is articulated in the 
-**Indigenous Governance Protocol for Technology Development and Data Collection**  (SECIHTI CBF-2025-G-368), adapted to the context of this work.
+This project follows the **CARE Principles for Indigenous Data Governance** (Collective Benefit, Authority to Control, Responsibility, Ethics) — extended in this work to **CARE+S**, adding *Digital Sovereignty and Active Participation* — alongside the FAIR principles. The governance framework is articulated in the **Indigenous Governance Protocol for Technology Development and Data Collection** (SECIHTI CBF-2025-G-368), adapted to the context of this work.
 
 Key commitments:
 
-- **Community co-authorship** — The five community leaders who contributed to the Cultural Constitution are recognized as co-creators, not anonymous 
-  informants. Their names and communities appear in the paper and in this repository.
-- **Assembly as decision-making authority** — Any initial sharing agreement, veto, or request for total revocation and destruction of data falls under 
-  the authority of the corresponding Community Assembly, operating under its own normative systems.
-- **Community oversight committee** — An operational body designated by the Assembly supervises that project files are used only for the approved 
-  purposes and reports periodically on the state of the data.
-- **Right to refusal and revocation** — Any community or individual may refuse documentation of their language, or revoke their authorization at any stage. 
-  In case of revocation, the team is obligated to securely delete the corresponding files from all project servers and databases.
-- **Non-commercial use** — Data use for commercial products, trademark registration, paid licensing, or training AI models for private profit is 
-  strictly prohibited.
-- **Restricted access** — Original audio recordings and transcriptions are classified under *Restricted Access* and are not distributed in this 
-  repository. Access for scientific validation requires a formal written request, an analysis of community benefit, and authorization from the 
-  corresponding Community Assembly. See [`data/README.md`](data/README.md).
+- **Community co-authorship** — The five community leaders who contributed to the Cultural Constitution are recognized as co-creators, not anonymous informants. Their names and communities appear in the paper and in this repository.
+- **Assembly as decision-making authority** — Any initial sharing agreement, veto, or request for total revocation and destruction of data falls under the authority of the corresponding Community Assembly, operating under its own normative systems.
+- **Community oversight committee** — An operational body designated by the Assembly supervises that project files are used only for the approved purposes and reports periodically on the state of the data.
+- **Right to refusal and revocation** — Any community or individual may refuse documentation of their language, or revoke their authorization at any stage. In case of revocation, the team is obligated to securely delete the corresponding files from all project servers and databases.
+- **Non-commercial use** — Data use for commercial products, trademark registration, paid licensing, or training AI models for private profit is strictly prohibited.
+- **Restricted access** — Original audio recordings and transcriptions are classified under *Restricted Access* and are not distributed in this repository. Access for scientific validation requires a formal written request, an analysis of community benefit, and authorization from the corresponding Community Assembly. See [`data/README.md`](data/README.md).
 
-The project does not yet count on a formal indigenous council with binding veto power across all stages; establishing one — beginning with a consultative 
-council of the current five co-creators and institutional participation from URI — is an explicit goal for future iterations.
+The project does not yet count on a formal indigenous council with binding veto power across all stages; establishing one — beginning with a consultative council of the current five co-creators and institutional participation from URI — is an explicit goal for future iterations.
 
-See [`docs/data_governance.md`](docs/data_governance.md) for the full framework and [`docs/protocol_reference.md`](docs/protocol_reference.md) for the source 
-protocol.
+See [`docs/data_governance.md`](docs/data_governance.md) for the full framework and [`docs/protocol_reference.md`](docs/protocol_reference.md) for the source protocol.
 
 ## Citation
 
-If you use this work, please cite the paper:
+This work is currently under review. If you use it, please cite the preprint (or the paper once published):
 
 ```bibtex
-@article{fernandezsabido2026constitutional,
-  title   = {Alineando modelos de lenguaje con saberes comunitarios indígenas:
-             Constitutional AI para políticas de datos y justicia epistémica
-             desde el Sur Global},
-  author  = {Fernández Sabido, Silvia and Reyes Magaña, Jorge and
-             Chay Tun, Jesús Adrián and Buenfil, Jean Carlos and
-             González Nahuat, Victor and Morales, Francisco},
-  journal = {Texto Livre},
-  volume  = {18},
-  year    = {2026},
-  doi     = {10.1590/1983-3652.yyyy.nnnnn}
+@misc{fernandezsabido2026constitutional,
+  title         = {Aligning Language Models with Indigenous Community Knowledge:
+                   Constitutional AI for Data Policies and Epistemic Justice
+                   from the Global South},
+  author        = {Fernández Sabido, Silvia and Reyes Magaña, Jorge and
+                   Chay Tun, Jesús Adrián and Buenfil, Jean Carlos and
+                   González Nahuat, Victor and Morales, Francisco},
+  year          = {2026},
+  eprint        = {XXXX.XXXXX},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Spanish version under review at Texto Livre},
+  url           = {https://arxiv.org/abs/XXXX.XXXXX}
 }
