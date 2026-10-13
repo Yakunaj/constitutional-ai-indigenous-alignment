@@ -14,7 +14,7 @@ This distinction follows the *Indigenous Governance Protocol for Technology Deve
 
 | Material | Location | License |
 |---|---|---|
-| Cultural Constitution (12 operational principles) | [`../constitution/codigo_moral_v2_1.json`](../constitution/codigo_moral_v2_1.json) | CC BY-NC-SA 4.0 |
+| Cultural Constitution (12 operational principles) | [`../constitution/codigo_moral_v2.1.json`](../constitution/codigo_moral_v2_1.json) | CC BY-NC-SA 4.0 |
 | Constitutional critique prompts | [`../prompts/`](../prompts/) | CC BY-NC-SA 4.0 |
 | Evaluation prompts | [`../prompts/`](../prompts/) | CC BY-NC-SA 4.0 |
 | SFT dataset (derived from the constitution's aligned examples) | [`../data/`](../data/) | CC BY-NC-SA 4.0 |
@@ -81,7 +81,7 @@ Esta distinción sigue el *Protocolo de gobernanza indígena para la elaboració
 
 | Material | Ubicación | Licencia |
 |---|---|---|
-| Constitución Cultural (12 principios operativos) | [`../constitution/codigo_moral_v2_1.json`](../constitution/codigo_moral_v2_1.json) | CC BY-NC-SA 4.0 |
+| Constitución Cultural (12 principios operativos) | [`../constitution/codigo_moral_v2.1.json`](../constitution/codigo_moral_v2_1.json) | CC BY-NC-SA 4.0 |
 | Prompts de crítica constitucional | [`../prompts/`](../prompts/) | CC BY-NC-SA 4.0 |
 | Prompts de evaluación | [`../prompts/`](../prompts/) | CC BY-NC-SA 4.0 |
 | Dataset SFT (derivado de los ejemplos alineados de la constitución) | [`../data/`](../data/) | CC BY-NC-SA 4.0 |
