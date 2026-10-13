@@ -29,6 +29,17 @@ This repository accompanies the paper:
 
 > Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con saberes comunitarios indígenas: Constitutional AI para políticas de datos y justicia epistémica desde el Sur Global*. **Texto Livre**, v. 18.
 
+This repository accompanies the following work:
+
+> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., 
+> González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje 
+> con saberes comunitarios indígenas: Constitutional AI para políticas de datos 
+> y justicia epistémica desde el Sur Global* [Aligning language models with 
+> indigenous community knowledge: Constitutional AI for data policies and 
+> epistemic justice from the Global South]. **Texto Livre**, special issue 
+> *AI in Linguistics / Linguistics in AI*. Under review.
+> 
+
 It contains the complete system developed to align a language model with the ethical and philosophical principles of five indigenous communities in Latin America, through a **Cultural Constitution** co-created with community leaders and a **Constitutional AI (CAI)** pipeline combining supervised fine-tuning (SFT) and direct preference optimization (DPO), deployed with retrieval-augmented generation (RAG).
 
 ## Repository structure
