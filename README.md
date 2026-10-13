@@ -70,14 +70,14 @@ The training follows the Constitutional AI pipeline in two phases:
 
 Three experimental configurations were run to estimate robustness:
 - (A) 7B with packing
-- (B) 1.5B full
+- (B) 1.5B with packing
 - (C) 7B without packing
 
 ## Key findings
 
 - The most consistent improvements were observed in **intergenerational transmission**, **linguistic caution**, and **consultation and consent** — principles with clear operational rules and well-defined concrete examples.
 - The **1.5B configuration** achieved the highest average RL>SL score (0.523), outperforming 7B configurations. With only 24 preference pairs, model size was not the determining factor for cultural alignment.
-- **Sequence packing negatively affected cultural alignment** (0.405 with packing vs. 0.474 without), suggesting that mixing examples from different categories in a single sequence dilutes the learning signal for small datasets.
+- **Sequence packing negatively affected cultural alignment** (0.324 with packing vs. 0.474 without), suggesting that mixing examples from different categories in a single sequence dilutes the learning signal for small datasets.
 - **No configuration consistently activated epistemic self-limitation** on generalizing questions, indicating that complex philosophical principles requiring self-restraint need more contrasting negative examples and possibly strategies beyond standard DPO.
 - The training did **not** cause catastrophic forgetting: general knowledge questions were answered correctly after SFT and DPO.
 
