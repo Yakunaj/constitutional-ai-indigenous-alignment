@@ -16,7 +16,7 @@ This repository is **bilingual by design**. The choice of language for each type
 | Folder names, file names | English | Standard convention; improves discoverability |
 | Metadata (`CITATION.cff`, `LICENSE.md`) | English | GitHub and citation conventions |
 | `README.md` (main) | English | Entry point for the international audience reached via the arXiv preprint |
-| Cultural Constitution (`codigo_moral_v2_1.json`) | Spanish | Scientific artifact co-created with community leaders; translating it would decontextualize it |
+| Cultural Constitution (`codigo_moral_v2.1.json`) | Spanish | Scientific artifact co-created with community leaders; translating it would decontextualize it |
 | Prompts, datasets, evaluation criteria | Spanish | Same reason: they are the artifacts of the research, not the scaffolding |
 | Community co-creator names and roles | As each person identifies | Respect for how each person names themselves |
 | `docs/` files | Bilingual (EN + ES in the same file) | To serve both technical and community audiences without duplicating files |
@@ -72,7 +72,7 @@ Este repositorio es **bilingüe por diseño**. La elección del idioma para cada
 | Nombres de carpetas y archivos | Inglés | Convención estándar; mejora la descubribilidad |
 | Metadatos (`CITATION.cff`, `LICENSE.md`) | Inglés | Convenciones de GitHub y de citación |
 | `README.md` (principal) | Inglés | Puerta de entrada para el público internacional que llega vía el preprint en arXiv |
-| Constitución Cultural (`codigo_moral_v2_1.json`) | Español | Artefacto científico co-creado con líderes comunitarios; traducirlo lo descontextualizaría |
+| Constitución Cultural (`codigo_moral_v2.1.json`) | Español | Artefacto científico co-creado con líderes comunitarios; traducirlo lo descontextualizaría |
 | Prompts, datasets, criterios de evaluación | Español | Misma razón: son los artefactos de la investigación, no el andamiaje |
 | Nombres y roles de co-creadores comunitarios | Como cada persona se identifica | Respeto a cómo cada persona se nombra a sí misma |
 | Archivos de `docs/` | Bilingüe (EN + ES en el mismo archivo) | Para servir a públicos técnicos y comunitarios sin duplicar archivos |
