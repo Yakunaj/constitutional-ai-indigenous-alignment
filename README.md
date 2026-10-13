@@ -2,6 +2,10 @@
 
 **Aligning language models with indigenous community knowledge through Constitutional AI.**
 
+[![License: Code GPLv3 · Content CC BY-NC-SA](https://img.shields.io/badge/License-GPLv3%20%7C%20CC%20BY--NC--SA-blue.svg)](#license)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+%[![DOI](https://img.shields.io/badge/DOI-10.1590%2F1983--3652.yyyy.nnnnn-blue.svg)](https://doi.org/10.1590/1983-3652.yyyy.nnnnn)
+
 This repository combines two licensing regimes, consistent with the Indigenous Governance Protocol (SECIHTI CBF-2025-G-368):
 
 - **Code** (notebooks, scripts) — GNU General Public License v3.0 (GPLv3).
@@ -13,8 +17,6 @@ This repository combines two licensing regimes, consistent with the Indigenous G
   Access is restricted and requires authorization from the corresponding 
   Community Assembly. See [`data/README.md`](data/README.md).
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![DOI](https://img.shields.io/badge/DOI-10.1590%2F1983--3652.yyyy.nnnnn-blue.svg)](https://doi.org/10.1590/1983-3652.yyyy.nnnnn)
 
 > Leer en español: [README.es.md](README.es.md)
 
