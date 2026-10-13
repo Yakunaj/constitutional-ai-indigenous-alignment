@@ -25,20 +25,9 @@ This repository combines two licensing regimes, consistent with the Indigenous G
 
 Large language models are predominantly trained on corpora that reflect Western, anglophone, urban middle-class worldviews. This asymmetry is not neutral: when a model answers questions about territory, community authority, reciprocity, or the relationship with nature, it does so from philosophical assumptions that may be alien — or directly opposed — to those of the communities using the system.
 
-This repository accompanies the paper:
-
-> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con saberes comunitarios indígenas: Constitutional AI para políticas de datos y justicia epistémica desde el Sur Global*. **Texto Livre**, v. 18.
-
 This repository accompanies the following work:
 
-> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., 
-> González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje 
-> con saberes comunitarios indígenas: Constitutional AI para políticas de datos 
-> y justicia epistémica desde el Sur Global* [Aligning language models with 
-> indigenous community knowledge: Constitutional AI for data policies and 
-> epistemic justice from the Global South]. **Texto Livre**, special issue 
-> *AI in Linguistics / Linguistics in AI*. Under review.
-> 
+Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con saberes comunitarios indígenas: Constitutional AI para políticas de datos y justicia epistémica desde el Sur Global* [Aligning language models with indigenous community knowledge: Constitutional AI for data policies and epistemic justice from the Global South]. **Texto Livre**, special issue *AI in Linguistics / Linguistics in AI*. Under review.
 
 It contains the complete system developed to align a language model with the ethical and philosophical principles of five indigenous communities in Latin America, through a **Cultural Constitution** co-created with community leaders and a **Constitutional AI (CAI)** pipeline combining supervised fine-tuning (SFT) and direct preference optimization (DPO), deployed with retrieval-augmented generation (RAG).
 
@@ -46,13 +35,13 @@ It contains the complete system developed to align a language model with the eth
 
 | Folder | Contents |
 |---|---|
-| [`paper/`](paper/) | Links to the Spanish paper and the English preprint |
+| [`paper/`](paper/) | Links to the Spanish paper (under review) and the English preprint |
 | [`constitution/`](constitution/) | The Cultural Constitution: 12 operational principles with traceability to community testimonies |
 | [`training/`](training/) | Notebooks for SFT, DPO, and evaluation over Qwen2.5-Instruct with LoRA |
-| [`results/`](results/) | Comparative results across four experimental configurations |
+| [`results/`](results/) | Comparative results across four experimental configurations (A/B/C/D) |
 | [`rag/`](rag/) | Description of the RAG architecture over the oral corpus *U'uy u t'aan* |
-| [`data/`](data/) | Description of the datasets, how to request access, and the knowledge-sharing agreement |
-| [`docs/`](docs/) | Language policy, data governance, and the CARE/FAIR framework |
+| [`data/`](data/) | Description of the datasets, how to request access, and the knowledge-sharing agreement. **No raw data is distributed in this repository** |
+| [`docs/`](docs/) | Language policy, data governance (CARE+S), and licensing framework |
 
 ## The Cultural Constitution
 
