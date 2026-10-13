@@ -95,6 +95,15 @@ This work would not have been possible without the generosity and disposition of
 
 All except Don Felipe are members of URI — United Religions Initiative (urialc.org).
 
+## Author contributions
+
+- **Silvia Fernández Sabido** — Study design, funding acquisition, project coordination, interviews, experiments, manuscript writing.
+- **Jorge Reyes Magaña** — Experiment co-design, technical supervision, methodological guidance, manuscript contributions.
+- **Jesús Adrián Chay Tun** — Interview guide, community interviews, Cultural Constitution, technical report.
+- **Jean Carlos Buenfil** — Training pipeline (SFT and DPO), initial alignment experiments, technical report.
+- **Victor González Nahuat** — RAG architecture and conversational interface, technical report.
+- **Francisco Morales** — Community co-creation, Cultural Constitution contributions, manuscript review.
+
 ## Language policy
 
 This repository is **bilingual by design**. Code, folder names, and metadata are in English for technical interoperability. Scientific artifacts — the Cultural Constitution, training prompts, preference datasets, and evaluation prompts — remain in Spanish, the language in which they were co-created with community leaders. Translating them would reproduce the epistemic asymmetry this work seeks to address.
