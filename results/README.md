@@ -11,7 +11,7 @@ This folder contains the comparative evaluation results of the three experimenta
 | File | Configuration |
 |---|---|
 | [`comparison_7B.json`](comparison_7B.json) | (A) Qwen2.5-7B-Instruct, with packing |
-| [`comparison_1_5B.json`](comparison_1_5B.json) | (B) Qwen2.5-1.5B-Instruct, with packing |
+| [`comparison_1.5B.json`](comparison_1.5B.json) | (B) Qwen2.5-1.5B-Instruct, with packing |
 | [`comparison_7B_no_pack.json`](comparison_7B_no_pack.json) | (C) Qwen2.5-7B-Instruct, without packing |
 
 Each JSON file contains:
@@ -84,7 +84,7 @@ Esta carpeta contiene los resultados de evaluación comparativa de las tres conf
 | Archivo | Configuración |
 |---|---|
 | [`comparison_7B.json`](comparison_7B.json) | (A) Qwen2.5-7B-Instruct, con packing |
-| [`comparison_1_5B.json`](comparison_1_5B.json) | (B) Qwen2.5-1.5B-Instruct, con packing |
+| [`comparison_1.5B.json`](comparison_1.5B.json) | (B) Qwen2.5-1.5B-Instruct, con packing |
 | [`comparison_7B_no_pack.json`](comparison_7B_no_pack.json) | (C) Qwen2.5-7B-Instruct, sin packing |
 
 Cada archivo JSON contiene:
