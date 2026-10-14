@@ -102,7 +102,7 @@ All except Don Felipe are members of URI — United Religions Initiative (urialc
 - **Jesús Adrián Chay Tun** — Interview guide, community interviews, Cultural Constitution, technical report.
 - **Jean Carlos Buenfil** — Training pipeline (SFT and DPO), initial alignment experiments, technical report.
 - **Victor González Nahuat** — RAG architecture and conversational interface, technical report.
-- **Francisco Morales** — Community co-creation, Cultural Constitution contributions, manuscript review.
+- **Francisco Morales** — Writer on Indigenous cosmovision; community co-creation, Cultural Constitution contributions, manuscript review.
 
 ## Language policy
 
