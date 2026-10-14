@@ -87,13 +87,14 @@ This work would not have been possible without the generosity and disposition of
 
 | Name | People | Country | Role |
 |---|---|---|---|
-| Felipe Chuc Yah | Maya | Mexico | Farmer and producer, mainly of vegetables; also raises animals (chickens, pigs) at home; knowledgeable in community norms and land work.|
-| Francisco Morales | Aymara | Argentina | Writer on Indigenous worldview; Global Council Trustee for Latin America and the Caribbean (URI); co-founder of the Circle of Indigenous Written and Oral Knowledge. |
-| Julio César Paz Nap | Tolupán | Honduras | Territorial defender and human rights activist; advocate for youth participation in community decision-making. |
-| Donatila Girón | Lenca | Honduras | Community leader and legal promoter; companion of women victims of violence; defender of land and water. |
-| Marvin Ramón Castellón | Chorotega | Honduras | Indigenous Chorotega representative of the southern Choluteca zone; traditional midwife and practitioner of traditional medicine. |
+| Felipe Chuc Yah | Maya | Mexico | Farmer and producer, mainly of vegetables; also raises animals (chickens, pigs) at home; knowledgeable in community norms and land work. |
+| Francisco Morales | Aymara | Argentina | Writer on Indigenous cosmovision; co-founder of the Circle of Indigenous Written and Oral Knowledge; Global Council Trustee for Latin America and the Caribbean (URI); URI Circle member. |
+| Julio César Paz Nap | Tolupán | Honduras | Territorial defender and human rights activist; advocate for youth participation in community decision-making; URI Circle member. |
+| Donatila Girón Calix | Lenca | Honduras | Community leader and legal promoter; companion of women victims of violence; defender of land and water; URI Circle member. |
+| Marvin Ramón Castellón | Chorotega | Honduras | Indigenous Chorotega representative of the southern Choluteca zone; traditional midwife and practitioner of traditional medicine; water and land rights activist; URI Circle member and Sub-Coordinator of his Cooperation Circle. |
 
-All except Don Felipe are members of URI — United Religions Initiative (urialc.org).
+The five co-creators contributed from their respective communities and organizational affiliations. URI (United Religions Initiative, urialc.org) accompanied four of them through its network.
+
 
 ## Author contributions
 
