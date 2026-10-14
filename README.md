@@ -87,7 +87,7 @@ This work would not have been possible without the generosity and disposition of
 
 | Name | People | Country | Role |
 |---|---|---|---|
-| Don Felipe | Maya | Mexico | Producer and knowledgeable in community norms and land work; bearer of knowledge on territorial management and community organization.|
+| Felipe Chuc Yah | Maya | Mexico | Farmer and producer, mainly of vegetables; also raises animals (chickens, pigs) at home; knowledgeable in community norms and land work.|
 | Francisco Morales | Aymara | Argentina | Writer on Indigenous worldview; Global Council Trustee for Latin America and the Caribbean (URI); co-founder of the Circle of Indigenous Written and Oral Knowledge. |
 | Julio César Paz Nap | Tolupán | Honduras | Territorial defender and human rights activist; advocate for youth participation in community decision-making. |
 | Donatila Girón | Lenca | Honduras | Community leader and legal promoter; companion of women victims of violence; defender of land and water. |
