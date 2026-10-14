@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+/* --- Variables de Paleta de Colores --- */
+:root {
+    --bg-primary: #f8fafc;
+    --navy-dark: #aacd61;
+    --navy-text: #20311b;
+    --blue-button: #6f9d33;
+    --blue-button-hover: #5c8528;
+    --card-shadow: rgba(76, 102, 32, 0.08);
+    --card-shadow-hover: rgba(76, 102, 32, 0.14);
+    --text-muted: #64748b;
+}
+
+/* --- Estilos Generales --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--navy-text);
+    min-height: 100vh;
+}

@@ -1,0 +1,78 @@
+<div class="modal-overlay" [class.active]="isOpen" (click)="closeOnOverlay($event)">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h2>Alimentar Inteligencia</h2>
+      <button class="btn-close-modal" type="button" [disabled]="isUploading" (click)="close()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="corpusTitle">Título</label>
+        <input type="text" id="corpusTitle" name="title" [(ngModel)]="title" class="form-control" placeholder="Ej. Reglamento interno 2026" required>
+      </div>
+      <div class="form-group">
+        <label for="corpusDescription">Descripción</label>
+        <textarea id="corpusDescription" name="description" [(ngModel)]="description" class="form-control" placeholder="Describe brevemente..."></textarea>
+      </div>
+      <div class="form-group">
+        <label>Documento</label>
+        <div class="drag-drop-zone" [class.dragover]="isDragOver" [class.occupied]="selectedFile">
+          @if (!selectedFile) {
+            <div
+              class="drag-drop-zone__empty"
+              (dragover)="onDragOver($event)"
+              (dragleave)="onDragLeave()"
+              (drop)="onDrop($event)">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+              <p>Arrastra un PDF aquí o <span>búscalo en tu equipo</span></p>
+              <input type="file" class="file-input" accept="application/pdf" (change)="onFileSelected($event)">
+            </div>
+          } @else {
+            <div class="selected-file-card" aria-live="polite">
+              <button
+                type="button"
+                class="selected-file-remove"
+                [disabled]="isUploading"
+                (click)="removeSelectedFile($event)"
+                aria-label="Quitar archivo seleccionado">
+                Borrar
+              </button>
+
+              <div class="selected-file-icon" aria-hidden="true">
+                <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h8"/></svg>
+              </div>
+
+              <div class="selected-file-copy">
+                <p >Documento seleccionado:</p>
+                <strong>{{ fileLabel }}</strong>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+
+      @if (errorMessage) {
+        <p class="status-message error">{{ errorMessage }}</p>
+      }
+
+      @if (successMessage) {
+        <p class="status-message success">{{ successMessage }}</p>
+      }
+
+      @if (isUploading) {
+        <div class="upload-progress" aria-live="polite" aria-label="Subiendo documento">
+          <div class="upload-progress-bar"></div>
+        </div>
+      }
+
+      <div class="modal-footer">
+        <button type="button" class="btn-modal cancel" [disabled]="isUploading" (click)="close()">Cancelar</button>
+        <button type="submit" class="btn-modal submit" [disabled]="isUploading || !selectedFile || !title.trim()">
+          {{ isUploading ? 'Guardando...' : 'Guardar' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

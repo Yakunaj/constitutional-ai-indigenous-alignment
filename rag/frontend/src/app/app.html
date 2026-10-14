@@ -1,0 +1,5 @@
+<app-topbar (openCorpus)="isModalOpen = true"></app-topbar>
+
+<app-chat></app-chat>
+
+<app-corpus-modal [isOpen]="isModalOpen" (closeExited)="isModalOpen = false"></app-corpus-modal>
