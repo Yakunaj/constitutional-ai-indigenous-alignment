@@ -95,7 +95,6 @@ This work would not have been possible without the generosity and disposition of
 
 The five co-creators contributed from their respective communities and organizational affiliations. URI (United Religions Initiative, urialc.org) accompanied four of them through its network.
 
-
 ## Author contributions
 
 - **Silvia Fernández Sabido** — Study design, funding acquisition, project coordination, interviews, experiments, manuscript writing.
@@ -151,3 +150,16 @@ This work is currently under review. If you use it, please cite the preprint (or
   note          = {Spanish version under review at Texto Livre},
   url           = {https://arxiv.org/abs/XXXX.XXXXX}
 }
+```
+
+A `CITATION.cff` file is included for GitHub's "Cite this repository" button.
+
+## License
+
+This repository combines two licensing regimes, consistent with the *Indigenous Governance Protocol for Technology Development and Data Collection* (SECIHTI CBF-2025-G-368):
+
+- **Code** (notebooks, scripts) — GNU General Public License v3.0 (GPLv3). Copyleft: derivative works must remain open.
+- **Scientific artifacts** (Cultural Constitution, prompts, documentation) — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0) and Traditional Knowledge (TK) Labels.
+- **Datasets and audio recordings** — Not distributed in this repository. Access is restricted and requires authorization from the corresponding Community Assembly. See [`data/README.md`](data/README.md) for details.
+
+See [`LICENSE.md`](LICENSE.md) and [`docs/data_governance.md`](docs/data_governance.md) for details.
