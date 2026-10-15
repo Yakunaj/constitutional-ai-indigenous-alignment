@@ -13,6 +13,7 @@ This folder contains the governance, ethics, methodology, and language policy do
 | [`protocol_reference.md`](protocol_reference.md) | Reference to the source protocol: *Indigenous Governance Protocol for Technology Development and Data Collection* (SECIHTI CBF-2025-G-368) |
 | [`interview_guide.md`](interview_guide.md) | The interview guide used with community co-creators to build the Cultural Constitution |
 | [`knowledge_sharing_agreement.md`](knowledge_sharing_agreement.md) | The agreement read and signed by each co-creator before the interview, implementing the ethical principles of the protocol |
+| [`qualitative_analysis.md`](qualitative_analysis.md) | The qualitative analysis protocol used to transform interview transcripts into the Cultural Constitution |
 
 All documents are bilingual (English + Spanish in the same file).
 
@@ -29,5 +30,6 @@ Esta carpeta contiene los documentos de gobernanza, ética, metodología y polí
 | [`protocol_reference.md`](protocol_reference.md) | Referencia al protocolo fuente: *Protocolo de gobernanza indígena para la elaboración de tecnología y recopilación de datos* (SECIHTI CBF-2025-G-368) |
 | [`interview_guide.md`](interview_guide.md) | Guía de entrevista usada con los co-creadores comunitarios para construir la Constitución Cultural |
 | [`knowledge_sharing_agreement.md`](knowledge_sharing_agreement.md) | Acuerdo leído y firmado por cada co-creador antes de la entrevista, que implementa los principios éticos del protocolo |
+| [`qualitative_analysis.md`](qualitative_analysis.md) | Protocolo de análisis cualitativo usado para transformar las transcripciones de entrevistas en la Constitución Cultural |
 
 Todos los documentos son bilingües (inglés + español en el mismo archivo).
