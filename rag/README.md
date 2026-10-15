@@ -62,13 +62,23 @@ The system was deployed on a commercial server (Hetzner CPX42) with the followin
 
 The commercial server has been **deactivated** due to hosting costs. The code and architecture remain available in this repository for reproducibility and future re-deployment.
 
-Before deactivation, comparative tests were conducted between the aligned 1.5B model and Gemini on questions about indigenous peoples. The aligned model — the best-performing configuration in the paper's evaluation — produced responses closer to the lived reality of indigenous communities, drawing directly on the retrieved documents, while Gemini produced more generic, politically correct answers. The detailed comparison is available in the project's internal documentation.
+Before deactivation, comparative tests were conducted between the aligned 1.5B model and Gemini on questions about indigenous peoples. The aligned model — the best-performing configuration in the paper's evaluation — produced responses closer to the lived reality of indigenous communities, drawing directly on the retrieved documents, while Gemini produced more generic, politically correct answers. The evaluation was exploratory and not systematic: it did not follow a predefined protocol, did not include blind comparison, and did not involve community evaluators.
+
+### Evaluation against Gemini
+
+- [`evaluation_gemini.md`](evaluation_gemini.md) — Summary of the exploratory comparison with Gemini.
+- [`evaluation_gemini_annex.md`](evaluation_gemini_annex.md) — Full responses of both systems for all four questions.
+- [`evaluation_gemini.xlsx`](evaluation_gemini.xlsx) — Original spreadsheet with the comparative evaluation.
 
 ### Related files
 
 - Cultural Constitution: [`../constitution/codigo_moral_v2.1.json`](../constitution/codigo_moral_v2.1.json)
 - Training notebooks: [`../training/`](../training/)
 - Data governance framework: [`../docs/data_governance.md`](../docs/data_governance.md)
+- Quantitative results: [`../results/README.md`](../results/README.md)
+- Interview guide: [`../docs/interview_guide.md`](../docs/interview_guide.md)
+- Knowledge-sharing agreement: [`../docs/knowledge_sharing_agreement.md`](../docs/knowledge_sharing_agreement.md)
+- Qualitative analysis protocol: [`../docs/qualitative_analysis.md`](../docs/qualitative_analysis.md)
 
 ---
 
@@ -132,10 +142,20 @@ El sistema se desplegó en un servidor comercial (Hetzner CPX42) con el siguient
 
 El servidor comercial ha sido **desactivado** por costos de hospedaje. El código y la arquitectura permanecen disponibles en este repositorio para reproducibilidad y futuro redespliegue.
 
-Antes de la desactivación, se realizaron pruebas comparativas entre el modelo alineado de 1.5B y Gemini sobre preguntas acerca de pueblos indígenas. El modelo alineado —la configuración con mejor desempeño en la evaluación del paper— produjo respuestas más cercanas a la realidad vivida por las comunidades indígenas, tomando directamente de los documentos recuperados, mientras que Gemini produjo respuestas más genéricas y políticamente correctas. La comparación detallada está disponible en la documentación interna del proyecto.
+Antes de la desactivación, se realizaron pruebas comparativas entre el modelo alineado de 1.5B y Gemini sobre preguntas acerca de pueblos indígenas. El modelo alineado —la configuración con mejor desempeño en la evaluación del paper— produjo respuestas más cercanas a la realidad vivida por las comunidades indígenas, tomando directamente de los documentos recuperados, mientras que Gemini produjo respuestas más genéricas y políticamente correctas. La evaluación fue exploratoria y no sistemática: no siguió un protocolo predefinido, no incluyó comparación ciega ni contó con evaluadores comunitarios.
+
+### Evaluación contra Gemini
+
+- [`evaluation_gemini.md`](evaluation_gemini.md) — Resumen de la comparación exploratoria con Gemini.
+- [`evaluation_gemini_annex.md`](evaluation_gemini_annex.md) — Respuestas completas de ambos sistemas para las cuatro preguntas.
+- [`evaluation_gemini.xlsx`](evaluation_gemini.xlsx) — Hoja de cálculo original con la evaluación comparativa.
 
 ### Archivos relacionados
 
 - Constitución Cultural: [`../constitution/codigo_moral_v2.1.json`](../constitution/codigo_moral_v2.1.json)
 - Notebooks de entrenamiento: [`../training/`](../training/)
 - Marco de gobernanza de datos: [`../docs/data_governance.md`](../docs/data_governance.md)
+- Resultados cuantitativos: [`../results/README.md`](../results/README.md)
+- Guía de entrevista: [`../docs/interview_guide.md`](../docs/interview_guide.md)
+- Acuerdo de compartición de saberes: [`../docs/knowledge_sharing_agreement.md`](../docs/knowledge_sharing_agreement.md)
+- Protocolo de análisis cualitativo: [`../docs/qualitative_analysis.md`](../docs/qualitative_analysis.md)
