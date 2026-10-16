@@ -149,3 +149,16 @@ This work is currently under review. If you use it, please cite the preprint (or
   note          = {Spanish version under review at Texto Livre},
   url           = {https://arxiv.org/abs/XXXX.XXXXX}
 }
+```
+
+A `CITATION.cff` file is included for GitHub's "Cite this repository" button.
+
+## License
+
+This repository combines two licensing regimes, consistent with the *Indigenous Governance Protocol for Technology Development and Data Collection* (SECIHTI CBF-2025-G-368):
+
+- **Code** (notebooks, scripts) — GNU General Public License v3.0 (GPLv3). Copyleft: derivative works must remain open.
+- **Scientific artifacts** (Cultural Constitution, documentation) — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0) and Traditional Knowledge (TK) Labels.
+- **Datasets** — The SFT and preference datasets are distributed in [`training/`](training/) under CC BY-NC-SA 4.0. Raw audio recordings and transcriptions are not distributed; access is restricted and requires authorization from the corresponding Community Assembly. See [`data/README.md`](data/README.md) for details.
+
+See [`LICENSE.md`](LICENSE.md) and [`docs/data_governance.md`](docs/data_governance.md) for details.
