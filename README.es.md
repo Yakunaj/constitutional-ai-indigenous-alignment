@@ -17,6 +17,10 @@ Este repositorio acompaña al siguiente trabajo:
 
 > Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con la cosmovisión indígena comunitaria: Constitutional AI y justicia epistémica desde el Sur Global* [Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI]. **Texto Livre**, dosier *Linguística na IA e IA na Linguística* [AI in Linguistics / Linguistics in AI]. En revisión.
 
+Un preprint en inglés está disponible en arXiv:
+
+> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI*. arXiv:XXXX.XXXXX [cs.AI]. https://arxiv.org/abs/XXXX.XXXXX
+
 Contiene el sistema completo desarrollado para alinear un modelo de lenguaje con los principios éticos y filosóficos de cinco comunidades indígenas de América Latina, mediante una **Constitución Cultural** co-creada con líderes comunitarios y un pipeline de **Constitutional AI (CAI)** que combina ajuste supervisado (SFT) y optimización directa de preferencias (DPO), desplegado con recuperación aumentada (RAG).
 
 ## Estructura del repositorio
@@ -100,7 +104,7 @@ Los cinco co-creadores contribuyeron desde sus respectivas comunidades y afiliac
 
 ## Política de idiomas
 
-Este repositorio es **bilingüe por diseño**. El código, los nombres de carpeta y los metadatos están en inglés por interoperabilidad técnica. Los artefactos científicos — la Constitución Cultural, los prompts de entrenamiento, los datasets de preferencias y los prompts de evaluación — permanecen en español, la lengua en que fueron co-creados con líderes comunitarios. Traducirlos reproduciría la asimetría epistémica que este trabajo busca corregir.
+Este repositorio es **bilingüe por diseño**. El código, los nombres de carpeta y los metadatos están en inglés por interoperabilidad técnica. Los artefactos científicos — la Constitución Cultural y los datasets derivados — permanecen en español, la lengua en que fueron co-creados con líderes comunitarios. Traducirlos reproduciría la asimetría epistémica que este trabajo busca corregir.
 
 Ver [`docs/language_policy.md`](docs/language_policy.md) para más detalles.
 
