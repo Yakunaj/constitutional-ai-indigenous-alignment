@@ -6,7 +6,7 @@
 
 ### Notice
 
-This repository distributes **derived scientific artifacts** — the Cultural Constitution, prompts, preference datasets, and comparative results — but **not the original audio recordings or their literal transcriptions**. The latter are the collective intellectual and cultural property of the participating indigenous communities and remain under restricted access, governed by the corresponding Community Assembly.
+This repository distributes **derived scientific artifacts** — the Cultural Constitution, SFT and preference datasets, and comparative results — but **not the original audio recordings or their literal transcriptions**. The latter are the collective intellectual and cultural property of the participating indigenous communities and remain under restricted access, governed by the corresponding Community Assembly.
 
 This distinction follows the *Indigenous Governance Protocol for Technology Development and Data Collection* (SECIHTI CBF-2025-G-368).
 
@@ -14,16 +14,14 @@ This distinction follows the *Indigenous Governance Protocol for Technology Deve
 
 | Material | Location | License |
 |---|---|---|
-| Cultural Constitution (12 operational principles) | [`../constitution/codigo_moral_v2.1.json`](../constitution/codigo_moral_v2_1.json) | CC BY-NC-SA 4.0 |
-| Constitutional critique prompts | [`../prompts/`](../prompts/) | CC BY-NC-SA 4.0 |
-| Evaluation prompts | [`../prompts/`](../prompts/) | CC BY-NC-SA 4.0 |
-| SFT dataset (derived from the constitution's aligned examples) | [`../data/`](../data/) | CC BY-NC-SA 4.0 |
-| DPO preference pairs (24 aligned/misaligned responses) | [`../data/`](../data/) | CC BY-NC-SA 4.0 |
+| Cultural Constitution (12 operational principles) | [`../constitution/codigo_moral_v2.1.json`](../constitution/codigo_moral_v2.1.json) | CC BY-NC-SA 4.0 |
+| SFT dataset (derived from the constitution's aligned examples) | [`../training/`](../training/) | CC BY-NC-SA 4.0 |
+| DPO preference pairs (24 aligned/misaligned responses) | [`../training/`](../training/) | CC BY-NC-SA 4.0 |
 | Training notebooks (SFT, DPO, evaluation) | [`../training/`](../training/) | GPLv3 |
 | Comparative results across configurations | [`../results/`](../results/) | CC BY-NC-SA 4.0 |
 | RAG architecture description | [`../rag/`](../rag/) | GPLv3 |
 
-These materials are **derived artifacts**: they operationalize the principles co-created with community leaders, but do not reproduce the original interviews or enable re-identification of participants.
+These materials are **derived artifacts**: they operationalize the principles co-created with community leaders, but do not reproduce the original interviews or enable re-identification of participants. Interviewee names in the Cultural Constitution have been replaced with codes (`Entrevistado 1`, `Entrevistado 2`, ...); the mapping between codes and names is available in the paper.
 
 ### What is not distributed
 
@@ -61,7 +59,7 @@ See [`../docs/data_governance.md`](../docs/data_governance.md) for the full fram
 
 ### Contact
 
-For data access requests or questions about the datasets distributed here, please contact the project's corresponding author:
+For data access requests or questions about the datasets distributed here, please contact:
 
 > **Silvia Fernández Sabido** — SECIHTI / CentroGeo, Mérida, Yucatán, México
 
@@ -73,7 +71,7 @@ Requests for restricted data will be reviewed with the corresponding Community A
 
 ### Aviso
 
-Este repositorio distribuye **artefactos científicos derivados** — la Constitución Cultural, los prompts, los datasets de preferencias y los resultados comparativos — pero **no las grabaciones de audio originales ni sus transcripciones literales**. Estas últimas son propiedad intelectual y cultural colectiva de las comunidades indígenas participantes y permanecen bajo acceso restringido, gobernadas por la Asamblea Comunitaria correspondiente.
+Este repositorio distribuye **artefactos científicos derivados** — la Constitución Cultural, los datasets de SFT y de preferencias, y los resultados comparativos — pero **no las grabaciones de audio originales ni sus transcripciones literales**. Estas últimas son propiedad intelectual y cultural colectiva de las comunidades indígenas participantes y permanecen bajo acceso restringido, gobernadas por la Asamblea Comunitaria correspondiente.
 
 Esta distinción sigue el *Protocolo de gobernanza indígena para la elaboración de tecnología y recopilación de datos* (SECIHTI CBF-2025-G-368).
 
@@ -81,16 +79,14 @@ Esta distinción sigue el *Protocolo de gobernanza indígena para la elaboració
 
 | Material | Ubicación | Licencia |
 |---|---|---|
-| Constitución Cultural (12 principios operativos) | [`../constitution/codigo_moral_v2.1.json`](../constitution/codigo_moral_v2_1.json) | CC BY-NC-SA 4.0 |
-| Prompts de crítica constitucional | [`../prompts/`](../prompts/) | CC BY-NC-SA 4.0 |
-| Prompts de evaluación | [`../prompts/`](../prompts/) | CC BY-NC-SA 4.0 |
-| Dataset SFT (derivado de los ejemplos alineados de la constitución) | [`../data/`](../data/) | CC BY-NC-SA 4.0 |
-| Pares de preferencias DPO (24 respuestas alineadas/desalineadas) | [`../data/`](../data/) | CC BY-NC-SA 4.0 |
+| Constitución Cultural (12 principios operativos) | [`../constitution/codigo_moral_v2.1.json`](../constitution/codigo_moral_v2.1.json) | CC BY-NC-SA 4.0 |
+| Dataset SFT (derivado de los ejemplos alineados de la constitución) | [`../training/`](../training/) | CC BY-NC-SA 4.0 |
+| Pares de preferencias DPO (24 respuestas alineadas/desalineadas) | [`../training/`](../training/) | CC BY-NC-SA 4.0 |
 | Notebooks de entrenamiento (SFT, DPO, evaluación) | [`../training/`](../training/) | GPLv3 |
 | Resultados comparativos entre configuraciones | [`../results/`](../results/) | CC BY-NC-SA 4.0 |
 | Descripción de la arquitectura RAG | [`../rag/`](../rag/) | GPLv3 |
 
-Estos materiales son **artefactos derivados**: operacionalizan los principios co-creados con los líderes comunitarios, pero no reproducen las entrevistas originales ni permiten reidentificar a las personas participantes.
+Estos materiales son **artefactos derivados**: operacionalizan los principios co-creados con los líderes comunitarios, pero no reproducen las entrevistas originales ni permiten reidentificar a las personas participantes. Los nombres de las personas entrevistadas en la Constitución Cultural han sido reemplazados por códigos (`Entrevistado 1`, `Entrevistado 2`, ...); el mapeo entre códigos y nombres está disponible en el artículo.
 
 ### Qué no se distribuye
 
@@ -128,7 +124,7 @@ Ver [`../docs/data_governance.md`](../docs/data_governance.md) para el marco com
 
 ### Contacto
 
-Para solicitudes de acceso a datos o preguntas sobre los datasets distribuidos aquí, por favor contactar a la autora correspondiente del proyecto:
+Para solicitudes de acceso a datos o preguntas sobre los datasets distribuidos aquí, por favor contactar a:
 
 > **Silvia Fernández Sabido** — SECIHTI / CentroGeo, Mérida, Yucatán, México
 
