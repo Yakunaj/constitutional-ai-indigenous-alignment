@@ -1,6 +1,6 @@
 # Constitutional AI para alineación indígena
 
-**Alineando modelos de lenguaje con saberes comunitarios indígenas mediante Constitutional AI.**
+**Alineando modelos de lenguaje con cosmovisión indígena comunitaria a través de Constitutional AI**
 
 [![Licencia: Código GPLv3 · Contenido CC BY-NC-SA](https://img.shields.io/badge/Licencia-GPLv3%20%7C%20CC%20BY--NC--SA-blue.svg)](#licencia)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
