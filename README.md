@@ -12,17 +12,15 @@
 
 ## Overview
 
-Large language models are predominantly trained on corpora that reflect Western, anglophone, urban middle-class worldviews. This asymmetry is not neutral: when a model answers questions about territory, community authority, reciprocity, or the relationship with nature, it does so from philosophical assumptions that may be alien — or directly opposed — to those of the communities using the system.
+Large language models are predominantly trained on corpora that reflect Western, anglophone worldviews. This asymmetry is not neutral: when a model answers questions about territory, community authority, reciprocity, or the relationship with nature, it does so from philosophical assumptions that may be alien — or directly opposed — to those of the communities using the system.
 
 This repository accompanies the following work:
 
-> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con saberes comunitarios indígenas: Constitutional AI para políticas de datos y justicia epistémica desde el Sur Global* [Aligning language models with indigenous community knowledge: Constitutional AI for data policies and epistemic justice from the Global South]. **Texto Livre**, dossier *Linguística na IA e IA na Linguística* [AI in Linguistics / Linguistics in AI]. Under review.
+> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con la cosmovisión indígena comunitaria: Constitutional AI y justicia epistémica desde el Sur Global* [Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI]. **Texto Livre**, dossier *Linguística na IA e IA na Linguística* [AI in Linguistics / Linguistics in AI]. Under review.
 
 An English preprint is available on arXiv:
 
-<!-- Descomentar y actualizar cuando esté disponible:
-> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Aligning Language Models with Indigenous Community Knowledge: Constitutional AI for Data Policies and Epistemic Justice from the Global South*. arXiv:XXXX.XXXXX [cs.CL]. https://arxiv.org/abs/XXXX.XXXXX
--->
+> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI*. arXiv:XXXX.XXXXX [cs.AI]. https://arxiv.org/abs/XXXX.XXXXX
 
 It contains the complete system developed to align a language model with the ethical and philosophical principles of five indigenous communities in Latin America, through a **Cultural Constitution** co-created with community leaders and a **Constitutional AI (CAI)** pipeline combining supervised fine-tuning (SFT) and direct preference optimization (DPO), deployed with retrieval-augmented generation (RAG).
 
@@ -32,10 +30,10 @@ It contains the complete system developed to align a language model with the eth
 |---|---|
 | [`paper/`](paper/) | Links to the Spanish paper (under review) and the English preprint |
 | [`constitution/`](constitution/) | The Cultural Constitution: 12 operational principles with traceability to community testimonies |
-| [`training/`](training/) | Notebooks for SFT, DPO, and evaluation over Qwen2.5-Instruct with LoRA |
+| [`training/`](training/) | Notebooks for SFT, DPO, and evaluation, and the SFT and preference datasets |
 | [`results/`](results/) | Comparative results across three experimental configurations (A/B/C) |
 | [`rag/`](rag/) | Description of the RAG architecture |
-| [`data/`](data/) | Description of the datasets, how to request access, and the knowledge-sharing agreement. **No raw data is distributed in this repository** |
+| [`data/`](data/) | Description of the data, governance, and knowledge-sharing agreement. **No raw audio or transcriptions are distributed** |
 | [`docs/`](docs/) | Language policy, data governance (CARE+S), and licensing framework |
 
 ## The Cultural Constitution
@@ -57,7 +55,7 @@ The process produced **12 operational principles**:
 11. Linguistic and translation caution
 12. Realism without stigma
 
-Each principle is structured with: name, operational rule, application nuances, supporting interview fragment, concrete situations with aligned and misaligned responses, constitutional critique instructions, and comparative evaluation criteria.
+Each principle is structured with: name, operational rules, supporting interview fragment, concrete situations with aligned and misaligned responses, critique instructions, revision instructions, and a preference question for DPO. Interviewee names have been replaced with codes (`Entrevistado 1`, `Entrevistado 2`, ...) for public release; the mapping between codes and names is available in the paper.
 
 ## The CAI pipeline
 
@@ -73,11 +71,13 @@ Three experimental configurations were run to estimate robustness:
 - (B) 1.5B with packing
 - (C) 7B without packing
 
+Configurations A and C share the same base model and datasets; they differ only in the use of sequence packing during DPO training.
+
 ## Key findings
 
 - The most consistent improvements were observed in **intergenerational transmission**, **linguistic caution**, and **consultation and consent** — principles with clear operational rules and well-defined concrete examples.
-- The **1.5B configuration** achieved the highest average RL>SL score (0.523), outperforming 7B configurations. With only 24 preference pairs, model size was not the determining factor for cultural alignment.
-- **Sequence packing negatively affected cultural alignment** (0.324 with packing vs. 0.474 without), suggesting that mixing examples from different categories in a single sequence dilutes the learning signal for small datasets.
+- The **1.5B configuration** achieved the highest average RL>SL score (0.523), outperforming both 7B configurations. With only 24 preference pairs and a single run per configuration, this should be read as an observation of this setting rather than as evidence that model size is irrelevant.
+- **Sequence packing negatively affected cultural alignment** in the 7B model (0.324 with packing vs. 0.474 without), suggesting that mixing examples from different categories in a single sequence dilutes the learning signal for small datasets.
 - **No configuration consistently activated epistemic self-limitation** on generalizing questions, indicating that complex philosophical principles requiring self-restraint need more contrasting negative examples and possibly strategies beyond standard DPO.
 - The training did **not** cause catastrophic forgetting: general knowledge questions were answered correctly after SFT and DPO.
 
@@ -122,6 +122,7 @@ Key commitments:
 - **Right to refusal and revocation** — Any community or individual may refuse documentation of their language, or revoke their authorization at any stage. In case of revocation, the team is obligated to securely delete the corresponding files from all project servers and databases.
 - **Non-commercial use** — Data use for commercial products, trademark registration, paid licensing, or training AI models for private profit is strictly prohibited.
 - **Restricted access** — Original audio recordings and transcriptions are classified under *Restricted Access* and are not distributed in this repository. Access for scientific validation requires a formal written request, an analysis of community benefit, and authorization from the corresponding Community Assembly. See [`data/README.md`](data/README.md).
+- **Derived datasets** — The SFT and preference datasets are derived from the Cultural Constitution and do not contain raw interview data. They are distributed in [`training/`](training/) under the same license as the scientific artifacts (CC BY-NC-SA 4.0).
 
 The project does not yet count on a formal indigenous council with binding veto power across all stages; establishing one — beginning with a consultative council of the current five co-creators and institutional participation from URI — is an explicit goal for future iterations.
 
@@ -137,29 +138,15 @@ This work is currently under review. If you use it, please cite the preprint (or
 
 ```bibtex
 @misc{fernandezsabido2026constitutional,
-  title         = {Aligning Language Models with Indigenous Community Knowledge:
-                   Constitutional AI for Data Policies and Epistemic Justice
-                   from the Global South},
+  title         = {Aligning Language Models with Indigenous Community Cosmovision
+                   through Constitutional AI},
   author        = {Fernández Sabido, Silvia and Reyes Magaña, Jorge and
                    Chay Tun, Jesús Adrián and Buenfil, Jean Carlos and
                    González Nahuat, Victor and Morales, Francisco},
   year          = {2026},
   eprint        = {XXXX.XXXXX},
   archivePrefix = {arXiv},
-  primaryClass  = {cs.CL},
+  primaryClass  = {cs.AI},
   note          = {Spanish version under review at Texto Livre},
   url           = {https://arxiv.org/abs/XXXX.XXXXX}
 }
-```
-
-A `CITATION.cff` file is included for GitHub's "Cite this repository" button.
-
-## License
-
-This repository combines two licensing regimes, consistent with the *Indigenous Governance Protocol for Technology Development and Data Collection* (SECIHTI CBF-2025-G-368):
-
-- **Code** (notebooks, scripts) — GNU General Public License v3.0 (GPLv3). Copyleft: derivative works must remain open.
-- **Scientific artifacts** (Cultural Constitution, prompts, documentation) — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0) and Traditional Knowledge (TK) Labels.
-- **Datasets and audio recordings** — Not distributed in this repository. Access is restricted and requires authorization from the corresponding Community Assembly. See [`data/README.md`](data/README.md) for details.
-
-See [`LICENSE.md`](LICENSE.md) and [`docs/data_governance.md`](docs/data_governance.md) for details.
