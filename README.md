@@ -28,7 +28,6 @@ It contains the complete system developed to align a language model with the eth
 
 | Folder | Contents |
 |---|---|
-| [`paper/`](paper/) | Links to the Spanish paper (under review) and the English preprint |
 | [`constitution/`](constitution/) | The Cultural Constitution: 12 operational principles with traceability to community testimonies |
 | [`training/`](training/) | Notebooks for SFT, DPO, and evaluation, and the SFT and preference datasets |
 | [`results/`](results/) | Comparative results across three experimental configurations (A/B/C) |
