@@ -148,3 +148,16 @@ Este trabajo está actualmente en revisión. Si lo usas, por favor cita el prepr
   note          = {Spanish version under review at Texto Livre},
   url           = {https://arxiv.org/abs/XXXX.XXXXX}
 }
+```
+
+Se incluye un archivo `CITATION.cff` para el botón "Cite this repository" de GitHub.
+
+## Licencia
+
+Este repositorio combina dos regímenes de licencia, en coherencia con el *Protocolo de gobernanza indígena para la elaboración de tecnología y recopilación de datos* (SECIHTI CBF-2025-G-368):
+
+- **Código** (notebooks, scripts) — GNU General Public License v3.0 (GPLv3). Copyleft: las obras derivadas deben permanecer abiertas.
+- **Artefactos científicos** (Constitución Cultural, documentación) — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0) y Traditional Knowledge (TK) Labels.
+- **Datasets** — Los datasets de SFT y de preferencias se distribuyen en [`training/`](training/) bajo CC BY-NC-SA 4.0. Las grabaciones de audio y transcripciones crudas no se distribuyen; el acceso es restringido y requiere autorización de la Asamblea Comunitaria correspondiente. Ver [`data/README.md`](data/README.md) para más detalles.
+
+Ver [`LICENSE.md`](LICENSE.md) y [`docs/data_governance.md`](docs/data_governance.md) para más detalles.
