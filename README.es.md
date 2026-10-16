@@ -23,7 +23,6 @@ Contiene el sistema completo desarrollado para alinear un modelo de lenguaje con
 
 | Carpeta | Contenido |
 |---|---|
-| [`paper/`](paper/) | Enlaces al artículo en español (en revisión) y al preprint en inglés |
 | [`constitution/`](constitution/) | La Constitución Cultural: 12 principios operativos con trazabilidad a los testimonios comunitarios |
 | [`training/`](training/) | Notebooks para SFT, DPO y evaluación, y los datasets de SFT y de preferencias |
 | [`results/`](results/) | Resultados comparativos de las tres configuraciones experimentales (A/B/C) |
