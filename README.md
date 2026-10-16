@@ -105,7 +105,7 @@ The five co-creators contributed from their respective communities and organizat
 
 ## Language policy
 
-This repository is **bilingual by design**. Code, folder names, and metadata are in English for technical interoperability. Scientific artifacts — the Cultural Constitution, training prompts, preference datasets, and evaluation prompts — remain in Spanish, the language in which they were co-created with community leaders. Translating them would reproduce the epistemic asymmetry this work seeks to address.
+This repository is **bilingual by design**. Code, folder names, and metadata are in English for technical interoperability. Scientific artifacts — the Cultural Constitution and the derived datasets — remain in Spanish, the language in which they were co-created with community leaders. Translating them would reproduce the epistemic asymmetry this work seeks to address.
 
 See [`docs/language_policy.md`](docs/language_policy.md) for details.
 
