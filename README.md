@@ -33,7 +33,7 @@ It contains the complete system developed to align a language model with the eth
 | [`results/`](results/) | Comparative results across three experimental configurations (A/B/C) |
 | [`rag/`](rag/) | Description of the RAG architecture |
 | [`data/`](data/) | Description of the data, governance, and knowledge-sharing agreement. **No raw audio or transcriptions are distributed** |
-| [`docs/`](docs/) | Language policy, data governance (CARE+S), and licensing framework |
+| [`docs/`](docs/) | Language policy, data governance (CARE+S), interview guide, knowledge-sharing agreement, qualitative codebook, analysis skill, and licensing framework |
 
 ## The Cultural Constitution
 
@@ -105,7 +105,7 @@ The five co-creators contributed from their respective communities and organizat
 
 ## Language policy
 
-This repository is **bilingual by design**. Code, folder names, and metadata are in English for technical interoperability. Scientific artifacts — the Cultural Constitution and the derived datasets — remain in Spanish, the language in which they were co-created with community leaders. Translating them would reproduce the epistemic asymmetry this work seeks to address.
+This repository is **bilingual by design**. Code, folder names, and metadata are in English for technical interoperability. Scientific artifacts — the Cultural Constitution, the qualitative codebook, the analysis skill, and the derived datasets — remain in Spanish, the language in which they were co-created with community leaders. Translating them would reproduce the epistemic asymmetry this work seeks to address.
 
 See [`docs/language_policy.md`](docs/language_policy.md) for details.
 
