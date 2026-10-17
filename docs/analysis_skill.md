@@ -3,7 +3,7 @@ name: realizar-transcripcion-analisis-entrevista
 description: Genera automáticamente una transcripción de una entrevista comunitaria siguiendo los formatos establecidos
 ---
 
-# Skill: Generacion de trasncripcion e identificacion de elementos relevantes de la trasncripcion
+# Skill: Generación de transcripción e identificación de elementos relevantes de la transcripción
 
 ## Propósito
 
