@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite the preprint below. The Spanish version is under review at Texto Livre."
+message: "If you use this work, please cite the preprint below. The Spanish version is being prepared for submission to Texto Livre."
 title: "Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI"
 abstract: >-
   This work presents a complete system for aligning language models with the
@@ -71,4 +71,3 @@ date-released: "2026-10-13"
 #       given-names: Francisco
 #   journal: "Texto Livre"
 #   year: 2026
-#   notes: "Under review"
