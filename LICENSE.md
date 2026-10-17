@@ -21,10 +21,11 @@ Texto completo: https://www.gnu.org/licenses/gpl-3.0.html
 **Licencia:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), complementada con Traditional Knowledge (TK) Labels cuando aplique.
 
 Aplica a:
-- La Constitución Cultural (`constitution/codigo_moral_v2_1.json`).
-- Los prompts constitucionales y de evaluación (`prompts/`).
+- La Constitución Cultural (`constitution/codigo_moral_v2.1.json`).
+- El codebook cualitativo y la skill de análisis (`docs/qualitative_codebook.md`, `docs/analysis_skill.md`).
 - La documentación (`docs/`, `README.md`, `README.es.md`).
 - Los resultados comparativos (`results/`).
+- Los datasets de SFT y de preferencias (`training/*.jsonl`).
 
 Condiciones:
 - **Atribución (BY):** se debe reconocer la autoría y la procedencia comunitaria.
@@ -39,7 +40,7 @@ Texto completo: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 **Acceso restringido. No se distribuyen en este repositorio.**
 
-Las grabaciones de audio originales, sus transcripciones y cualquier material lingüístico sensible son propiedad intelectual y cultural colectiva de los pueblos indígenas participantes. Se clasifican bajo la modalidad de *Acceso Restringido* según los Lineamientos Específicos para la Integración y Operación de los Repositorios de la SECIHTI (DOF, 06/09/2024).
+Las grabaciones de audio originales, sus transcripciones y cualquier material lingüístico sensible son propiedad intelectual y cultural colectiva de los pueblos indígenas participantes. Se clasifican bajo la modalidad de *Acceso Restringido* según los Lineamientos Específicos para la Integración y Operación de los Repositorios de la SECIHTI (DOF, 06/09/2024). Los datasets derivados (SFT y de preferencias) no contienen datos crudos y se distribuyen en `training/` bajo CC BY-NC-SA 4.0.
 
 Cualquier acceso para validación científica requiere:
 1. Solicitud formal por escrito.
@@ -65,7 +66,7 @@ Ver [`docs/data_governance.md`](docs/data_governance.md) para el marco completo.
 | Material | Licencia | Uso comercial |
 |---|---|---|
 | Código | GPLv3 | Permitido solo si el derivado queda abierto |
-| Constitución, prompts, docs | CC BY-NC-SA 4.0 | Prohibido |
+| Constitución, codebook, skill, docs, datasets | CC BY-NC-SA 4.0 | Prohibido |
 | Datos y audios | Acceso restringido | Prohibido, requiere autorización de asamblea |
 
 ---
@@ -93,10 +94,11 @@ Full text: https://www.gnu.org/licenses/gpl-3.0.html
 **License:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), complemented with Traditional Knowledge (TK) Labels where applicable.
 
 Applies to:
-- The Cultural Constitution (`constitution/codigo_moral_v2_1.json`).
-- Constitutional and evaluation prompts (`prompts/`).
+- The Cultural Constitution (`constitution/codigo_moral_v2.1.json`).
+- The qualitative codebook and the analysis skill (`docs/qualitative_codebook.md`, `docs/analysis_skill.md`).
 - Documentation (`docs/`, `README.md`, `README.es.md`).
 - Comparative results (`results/`).
+- The SFT and preference datasets (`training/*.jsonl`).
 
 Conditions:
 - **Attribution (BY):** authorship and community provenance must be acknowledged.
@@ -111,7 +113,7 @@ Full text: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 **Restricted access. Not distributed in this repository.**
 
-Original audio recordings, their transcriptions, and any sensitive linguistic material are the collective intellectual and cultural property of the participating indigenous peoples. They are classified under *Restricted Access* according to the SECIHTI Specific Guidelines for the Integration and Operation of Repositories (DOF, 06/09/2024).
+Original audio recordings, their transcriptions, and any sensitive linguistic material are the collective intellectual and cultural property of the participating indigenous peoples. They are classified under *Restricted Access* according to the SECIHTI Specific Guidelines for the Integration and Operation of Repositories (DOF, 06/09/2024). The derived datasets (SFT and preference) do not contain raw data and are distributed in `training/` under CC BY-NC-SA 4.0.
 
 Any access for scientific validation requires:
 1. A formal written request.
@@ -137,5 +139,5 @@ See [`docs/data_governance.md`](docs/data_governance.md) for the full framework.
 | Material | License | Commercial use |
 |---|---|---|
 | Code | GPLv3 | Allowed only if the derivative remains open |
-| Constitution, prompts, docs | CC BY-NC-SA 4.0 | Prohibited |
+| Constitution, codebook, skill, docs, datasets | CC BY-NC-SA 4.0 | Prohibited |
 | Data and audio | Restricted access | Prohibited, requires assembly authorization |
