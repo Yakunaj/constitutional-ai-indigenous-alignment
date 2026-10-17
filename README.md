@@ -133,7 +133,7 @@ This work was supported by a seed fund from URI — United Religions Initiative 
 
 ## Citation
 
-This work is currently under review. If you use it, please cite the preprint (or the paper once published):
+This work is being prepared for submission to Texto Livre. If you use it, please cite the preprint (or the paper once published):
 
 ```bibtex
 @misc{fernandezsabido2026constitutional,
@@ -146,7 +146,6 @@ This work is currently under review. If you use it, please cite the preprint (or
   eprint        = {XXXX.XXXXX},
   archivePrefix = {arXiv},
   primaryClass  = {cs.AI},
-  note          = {Spanish version under review at Texto Livre},
   url           = {https://arxiv.org/abs/XXXX.XXXXX}
 }
 ```
