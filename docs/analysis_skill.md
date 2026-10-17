@@ -1,3 +1,11 @@
+# Skill de análisis cualitativo
+
+Este documento contiene las instrucciones usadas para analizar las entrevistas comunitarias del proyecto Constitutional AI. Fue configurado como una *skill* dentro de OpenCode, un agente de codificación de IA basado en terminal.
+
+La skill especifica siete tareas de análisis, el flujo de trabajo y el formato de salida. Aplica las categorías definidas en el [codebook cualitativo](qualitative_codebook.md).
+
+La skill no contiene datos de entrevistas. Solo especifica el procedimiento de análisis.
+
 ---
 name: realizar-transcripcion-analisis-entrevista
 description: Genera automáticamente una transcripción de una entrevista comunitaria siguiendo los formatos establecidos
