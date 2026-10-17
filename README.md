@@ -16,7 +16,7 @@ Large language models are predominantly trained on corpora that reflect Western,
 
 This repository accompanies the following work:
 
-> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con la cosmovisión indígena comunitaria: Constitutional AI y justicia epistémica desde el Sur Global* [Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI]. **Texto Livre**, dossier *Linguística na IA e IA na Linguística* [AI in Linguistics / Linguistics in AI]. Under review.
+> Fernández Sabido, S., Reyes Magaña, J., Chay Tun, J. A., Buenfil, J. C., González Nahuat, V., & Morales, F. (2026). *Alineando modelos de lenguaje con la cosmovisión indígena comunitaria: Constitutional AI y justicia epistémica desde el Sur Global* [Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI]. **Texto Livre**, dossier *Linguística na IA e IA na Linguística* [AI in Linguistics / Linguistics in AI]. Being prepared for submission.
 
 An English preprint is available on arXiv:
 
