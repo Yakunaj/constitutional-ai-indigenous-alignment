@@ -1,3 +1,9 @@
+# Codebook cualitativo para Constitutional AI
+
+Este codebook guía el análisis de las entrevistas comunitarias del proyecto. Define 14 categorías de análisis, una escala de confianza y procedimientos ante ambigüedad. Fue usado junto con la [skill de análisis](analysis_skill.md).
+
+---
+
 # Codebook de análisis para Constitutional AI
 
 Versión inicial de trabajo para entrevistas comunitarias.
