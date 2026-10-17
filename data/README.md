@@ -23,6 +23,8 @@ This distinction follows the *Indigenous Governance Protocol for Technology Deve
 
 These materials are **derived artifacts**: they operationalize the principles co-created with community leaders, but do not reproduce the original interviews or enable re-identification of participants. Interviewee names in the Cultural Constitution have been replaced with codes (`Entrevistado 1`, `Entrevistado 2`, ...); the mapping between codes and names is available in the paper.
 
+The methodological artifacts used to analyze the interviews — the qualitative codebook and the analysis skill — are available in [`../docs/`](../docs/).
+
 ### What is not distributed
 
 | Material | Reason |
@@ -87,6 +89,8 @@ Esta distinción sigue el *Protocolo de gobernanza indígena para la elaboració
 | Descripción de la arquitectura RAG | [`../rag/`](../rag/) | GPLv3 |
 
 Estos materiales son **artefactos derivados**: operacionalizan los principios co-creados con los líderes comunitarios, pero no reproducen las entrevistas originales ni permiten reidentificar a las personas participantes. Los nombres de las personas entrevistadas en la Constitución Cultural han sido reemplazados por códigos (`Entrevistado 1`, `Entrevistado 2`, ...); el mapeo entre códigos y nombres está disponible en el artículo.
+
+Los artefactos metodológicos usados para analizar las entrevistas — el codebook cualitativo y la skill de análisis — están disponibles en [`../docs/`](../docs/).
 
 ### Qué no se distribuye
 
