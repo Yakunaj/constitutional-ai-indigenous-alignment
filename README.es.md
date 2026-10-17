@@ -132,7 +132,7 @@ Este trabajo fue financiado por un fondo semilla de URI — United Religions Ini
 
 ## Cómo citar
 
-Este trabajo está actualmente en revisión. Si lo usas, por favor cita el preprint (o el artículo una vez publicado):
+Este trabajo está en preparación para envío a Texto Livre. Si lo usas, por favor cita el preprint (o el artículo una vez publicado):
 
 ```bibtex
 @misc{fernandezsabido2026constitutional,
@@ -145,7 +145,6 @@ Este trabajo está actualmente en revisión. Si lo usas, por favor cita el prepr
   eprint        = {XXXX.XXXXX},
   archivePrefix = {arXiv},
   primaryClass  = {cs.AI},
-  note          = {Spanish version under review at Texto Livre},
   url           = {https://arxiv.org/abs/XXXX.XXXXX}
 }
 ```
