@@ -32,7 +32,7 @@ Contiene el sistema completo desarrollado para alinear un modelo de lenguaje con
 | [`results/`](results/) | Resultados comparativos de las tres configuraciones experimentales (A/B/C) |
 | [`rag/`](rag/) | Descripción de la arquitectura RAG |
 | [`data/`](data/) | Descripción de los datos, la gobernanza y el acuerdo de compartición de saberes. **No se distribuyen audios ni transcripciones crudas** |
-| [`docs/`](docs/) | Política de idiomas, gobernanza de datos (CARE+S) y marco de licencias |
+| [`docs/`](docs/) | Política de idiomas, gobernanza de datos (CARE+S), guía de entrevista, acuerdo de compartición de saberes, codebook cualitativo, skill de análisis y marco de licencias |
 
 ## La Constitución Cultural
 
@@ -104,7 +104,7 @@ Los cinco co-creadores contribuyeron desde sus respectivas comunidades y afiliac
 
 ## Política de idiomas
 
-Este repositorio es **bilingüe por diseño**. El código, los nombres de carpeta y los metadatos están en inglés por interoperabilidad técnica. Los artefactos científicos — la Constitución Cultural y los datasets derivados — permanecen en español, la lengua en que fueron co-creados con líderes comunitarios. Traducirlos reproduciría la asimetría epistémica que este trabajo busca corregir.
+Este repositorio es **bilingüe por diseño**. El código, los nombres de carpeta y los metadatos están en inglés por interoperabilidad técnica. Los artefactos científicos — la Constitución Cultural, el codebook cualitativo, la skill de análisis y los datasets derivados — permanecen en español, la lengua en que fueron co-creados con líderes comunitarios. Traducirlos reproduciría la asimetría epistémica que este trabajo busca corregir.
 
 Ver [`docs/language_policy.md`](docs/language_policy.md) para más detalles.
 
